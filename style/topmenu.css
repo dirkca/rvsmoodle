@@ -1,0 +1,175 @@
+/********************************************************
+**
+** Theme name: rockyviewsc
+**
+*********************************************************/
+
+/*#page {
+    position: relative;
+    top: 35px;
+}    */
+#bar-menu
+{
+    margin:0;
+    padding: 0;
+    clear:both;
+    position:fixed;
+    width:100%;    
+    z-index: 1000;
+    top:0;
+    left:0;   
+}
+#sitenav{
+    margin:0 ;
+    padding: 0 ;
+    clear:both;
+    height:37px;
+    background:  #d6eaf8 url([[pix:theme|dropdown-bg]]) repeat-x left top; 
+    position: relative;
+    z-index: 597;
+}
+ul.nav-main {
+    position: relative;
+    z-index: 597;
+}
+ul.nav-main,ul.nav-main li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.nav-main li:hover > ul {
+    visibility: visible;
+}
+ul.nav-main li.hover {
+    position: relative;
+    z-index: 599;
+    cursor: pointer;
+    background:  url([[pix:theme|dropdown-bg-hover]]) repeat-x left top;
+}
+ul.nav-main li {
+    background: url([[pix:theme|separator]]) no-repeat;
+    float:left;
+    display:block;
+    color: #999;
+    font: 12px Arial, Helvetica, sans-serif;
+    
+}
+ul.nav-main .lista{
+    height:37px;
+}
+ul.nav-main li.hover,ul.nav-main li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: pointer;
+    
+}
+ul.nav-main li:hover  {
+    background :#015D8C; 
+}
+ul.nav-main li a {
+    display:block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    height: 20px;
+    color: #FFF;
+    font: 14px Arial, Helvetica, sans-serif;
+    text-decoration:none;
+}
+ul.nav-main li a:hover {
+    color:#D6D6D6;
+}
+#sitenav li .list {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url([[pix:theme|drop]]);
+    background-position: right 17px;
+    background-repeat: no-repeat;
+    padding-right: 17px;
+}
+ 
+.dropdown_4columns { width: 580px;}
+.dropdown_6columns {width: 570px;} 
+#sitenav li:hover .dropdown_4columns,
+#sitenav li:hover .dropdown_6columns {
+    left:-1px;
+    top:auto;
+}
+.dropdown_4columns,.dropdown_6columns {
+    margin: -3px auto;
+    float:left;
+    position:absolute;
+    left:-999em; 
+    text-align:left;
+    padding:10px 5px 10px 7px;
+    background:  #353535 url([[pix:theme|dropdown-list-bg]]) repeat-x left top;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;    
+} 
+.col_1 {
+    display:inline;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px; 
+    width:180px;
+}
+.col_4 {
+    display:inline;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+}    
+#sitenav li .col_4 .nav-sub li {
+    background:transparent !important;    
+    border:1px solid #bbbbbb;
+    margin:0px 0px 4px 0px;
+    width:570px ; 
+}
+
+ 
+#sitenav li:hover div a {
+    font-size:12px;
+    color: #1B2D49;
+}
+#sitenav li:hover div a:hover {
+    color:#029feb;
+}
+#sitenav li ul {
+    list-style:none;
+    padding:0;
+   margin:0 0 12px 0;
+}
+
+#sitenav li ul li:hover {
+    background:none;
+    border:none;
+    padding:0;
+    margin:0;
+}
+
+#sitenav li .nav-sub li {
+    background:#F4F4F4;
+    border:1px solid #bbbbbb;
+    margin:0px 0px 4px 0px;
+
+  width:180px ;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+   behavior: url(border-radius.htc);
+}
+#sitenav li .nav-sub li:hover {
+    background:#ffffff;
+    border:1px solid #aaaaaa;
+    margin:0px 0px 4px 0px;
+}
+#sitenav li .nav-sub li a {
+    padding-bottom: 15px !important;
+}
+
+
